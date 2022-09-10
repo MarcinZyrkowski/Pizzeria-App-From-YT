@@ -10,14 +10,14 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class Config {
 
-//    @Bean
-//    public IPizza pizza() {
-//        return new GoodPizza(15, "Dobra");
-//    }
+    @Bean
+    public IPizza pizza() {
+        return new GoodPizza(15, "Dobra");
+    }
 
-//    @Bean
-//    public IOrder order(IPizza pizza) {
-//        return new Order(pizza);
-//    }
+    @Bean
+    public IOrder order(IPizza pizza) {
+        return new Order(pizza);
+    }
 
 }
